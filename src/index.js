@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 
 const server = express();
 
@@ -66,3 +66,5 @@ server.delete('/users/:index', checarArrayUsuario, (request, response) => {
 	users.splice(index, 1);
 	return response.send();
 });
+
+server.listen(3000);
