@@ -6,7 +6,8 @@
   "author": "<dyogo.vianaa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.js"
+	"dev": "nodemon src/index.js",
+	"dev:debug": "nodemon --inspect src/index.js"
   },
   "dependencies": {
     "express": "^4.17.1"
